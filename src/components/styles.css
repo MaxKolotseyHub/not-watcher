@@ -1,0 +1,27 @@
+.center{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    font-weight: lighter;
+    animation-name: easeIn;
+    animation-duration: .8s;
+}  
+
+.decrease{
+    color: rgb(161, 39, 39);
+}
+
+.increase{
+    color: rgb(45, 155, 45);
+}
+
+
+@keyframes easeIn {
+    from {
+      transform: translateY(100%);
+      opacity: 1;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
